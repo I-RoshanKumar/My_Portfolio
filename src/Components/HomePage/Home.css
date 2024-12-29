@@ -1,0 +1,94 @@
+/* Home Page Styles */
+.home {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .home-header {
+    color: rgb(7, 6, 6);
+    padding: 2rem 1rem;
+    margin: 2rem 0 2rem 0; /* Adds a top gap (2rem) and bottom gap */
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    width: 95vw; /* Ensures it spans the full width of the viewport */
+    box-sizing: border-box; /* Includes padding in width calculation */
+    background-color: #bff3d5; /* Optional background for better visibility */
+  }
+  
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Content Section */
+  .home-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+  }
+  
+  .home-card {
+    background: #bff3d5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3.5rem;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .home-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+  }
+  
+  .home-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-header h1 {
+      font-size: 2rem;
+    }
+  
+    .home-header p {
+      font-size: 1rem;
+    }
+  
+    .home-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-card {
+      max-width:100%;
+    }
+}  
